@@ -1,0 +1,177 @@
+.mainwindows {
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px #ccc;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.headerdivwork{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 5px;
+}
+
+.todoinput {
+    width: 100%;
+    margin: 10px;
+    margin-bottom: 0px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: transparent;
+    outline: none;
+    transition: 0.3s;
+}
+
+.todoinput:focus{
+    border-bottom: 1px solid mediumorchid;
+}
+
+.addbutton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: mediumorchid;
+    outline: none;
+}
+
+.addbutton:hover{
+    background-color: darkorchid;
+}
+
+.logo{
+    border-radius: 15px;
+}
+
+.main{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 32px;
+    padding-top: 12px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px #ccc;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.todo{
+    width: 550px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: mediumorchid solid 1px;
+}
+
+.tododonebutton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: mediumorchid;
+    outline: none;
+    margin: 5px;
+}
+
+.tododonebutton:hover{
+    background-color: hotpink;
+}
+
+.tododeletebutton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: darksalmon;
+    outline: none;
+}
+
+.tododeletebutton:hover{
+    background-color: #ff610f
+}
+
+.todotext{
+    margin: 15px;
+    text-decoration: none;
+}
+
+.todotextdone{
+    margin: 15px;
+    text-decoration: line-through;
+}
+
+.todobuttons{
+    margin-right: 15px;
+}
+
+.activetab{
+    background-color: mediumorchid;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    outline: none;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.activetab:hover{
+    background-color: darkorchid;
+}
+
+.nonactivetab{
+    background-color: #cccccc;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    outline: none;
+    margin-right: 5px;
+    margin-left: 5px    ;
+}
+
+.nonactivetab:hover{
+    background-color: #e0e0e0;
+}
